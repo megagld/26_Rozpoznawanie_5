@@ -1,0 +1,14 @@
+# exclude everything
+cuts/*
+data/*
+/_gotowe
+/yolo-Weights
+/__pycache__
+
+# exception to the rule
+!cuts/.gitkeep
+!cuts/_frames/.gitkeep
+!cuts/_separated/.gitkeep
+!cuts/.@__thumb/.gitkeep
+!data/.gitkeep
+tmp/VID_20241231_125439.mp4
